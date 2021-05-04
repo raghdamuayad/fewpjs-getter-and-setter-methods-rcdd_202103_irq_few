@@ -15,9 +15,13 @@ this.radius= circumference / (2 * this.pi)
       get circumference(){
       return ( 2 * this.pi * this.radius) ;
     }
-      set area(radius){
-      this.radius = radius;
+      set area(area){
+      this.radius = Math.sqrt(area/this.pi)
+      
+    
 
       }
+      get area(){
         return this.pi * this.radius * this.radius;
+      }
       }
