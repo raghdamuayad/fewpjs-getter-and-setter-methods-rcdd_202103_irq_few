@@ -12,9 +12,12 @@ class Circle {
     set circumference(redius){
 this.radius= circumference / (2 * this.pi)
     }
+      get circumference(){
       return  2 * this.pi * this.radius ;
-      set ar(redius){
+    }
+      set area(redius){
       this.radius = radius;
+
       }
         return this.pi * this.radius * this.radius;
       }
